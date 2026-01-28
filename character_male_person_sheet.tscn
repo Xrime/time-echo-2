@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://4fwgchlfkpwx"]
+
+[ext_resource type="Texture2D" uid="uid://ckty4mh67m13j" path="res://assets/Character/kenney_toon-characters-1/Male person/Tilesheet/character_malePerson_sheet.png" id="1_q86j8"]
+
+[node name="CharacterMalePersonSheet" type="Sprite2D"]
+position = Vector2(340, 342)
+texture = ExtResource("1_q86j8")
