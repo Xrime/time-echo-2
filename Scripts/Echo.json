@@ -1,0 +1,167 @@
+[
+  {
+	"id": "echo_001",
+	"trigger": "step_zero",
+	"question": "What can you find in a living room?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "living_room"]
+  },
+  {
+	"id": "echo_002",
+	"trigger": "step_zero",
+	"question": "Name something you might see in a kitchen.",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "kitchen"]
+  },
+  {
+	"id": "echo_003",
+	"trigger": "step_zero",
+	"question": "What objects are usually found in a bedroom?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "bedroom"]
+  },
+  {
+	"id": "echo_004",
+	"trigger": "step_zero",
+	"question": "What can you find in a bathroom?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "bathroom"]
+  },
+  {
+	"id": "echo_005",
+	"trigger": "step_zero",
+	"question": "Name something you might see in a classroom.",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "classroom"]
+  },
+  {
+	"id": "echo_006",
+	"trigger": "step_zero",
+	"question": "What items are commonly found on a dining table?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "dining"]
+  },
+  {
+	"id": "echo_007",
+	"trigger": "step_zero",
+	"question": "What can you see in a supermarket?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "shop"]
+  },
+  {
+	"id": "echo_008",
+	"trigger": "step_zero",
+	"question": "Name something you might find on a street.",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "street"]
+  },
+  {
+	"id": "echo_009",
+	"trigger": "step_zero",
+	"question": "What objects are usually in an office?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "office"]
+  },
+  {
+	"id": "echo_010",
+	"trigger": "step_zero",
+	"question": "What can you find inside a refrigerator?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "kitchen"]
+  },
+  {
+	"id": "echo_011",
+	"trigger": "step_zero",
+	"question": "Name something you might see in a park.",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "outdoor"]
+  },
+  {
+	"id": "echo_012",
+	"trigger": "step_zero",
+	"question": "What items are commonly found in a backpack?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["objects", "personal"]
+  },
+  {
+	"id": "echo_013",
+	"trigger": "step_zero",
+	"question": "What can you find on a desk?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "desk"]
+  },
+  {
+	"id": "echo_014",
+	"trigger": "step_zero",
+	"question": "Name something you might see in a shop window.",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "shop"]
+  },
+  {
+	"id": "echo_015",
+	"trigger": "step_zero",
+	"question": "What objects are usually found in a hallway?",
+	"rules": {
+	  "short_answer": { "min": 1, "max": 2, "step_change": 1 },
+	  "medium_answer": { "min": 3, "max": 6, "step_change": 3 },
+	  "long_answer": { "min": 7, "max": 100, "step_change": 5 }
+	},
+	"tags": ["environment", "objects", "hallway"]
+  }
+]

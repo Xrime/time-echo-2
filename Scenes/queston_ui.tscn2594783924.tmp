@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://gj7vsfvr2m0g"]
+
+[ext_resource type="Script" uid="uid://ckfpj5yd1ym7y" path="res://Scenes/queston_ui.gd" id="1_gap60"]
+
+[node name="QuestonManager" type="Node"]
+script = ExtResource("1_gap60")
+
+[node name="QuestionLabel" type="Label" parent="."]
+offset_left = 360.0
+offset_top = 117.0
+offset_right = 506.0
+offset_bottom = 176.0
+text = "Hello
+"
+
+[node name="AnswerInput" type="LineEdit" parent="."]
+offset_left = 361.0
+offset_top = 175.0
+offset_right = 496.0
+offset_bottom = 224.0
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="text_submitted" from="AnswerInput" to="." method="_on_line_edit_text_submitted"]
